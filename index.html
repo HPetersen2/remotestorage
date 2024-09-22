@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remote Storage</title>
+    <script src="./remoteStorage.js"></script>
 </head>
-<body>
+<body onload="onloadFunc()">
     
+    <div>
+        <h2>Login</h2>
+
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Dein Name ...">
+    
+        <label for="password">Passwort</label>
+        <input type="password" id="password" placeholder="Dein Kennwort ...">
+    
+        <button onclick="loginUser()">Anmelden</button>
+    </div>
+
 </body>
 </html>
